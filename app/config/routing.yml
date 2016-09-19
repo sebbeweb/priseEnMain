@@ -1,0 +1,13 @@
+livre:
+    resource: "@LivreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+site_internet:
+    resource: "@SiteInternetBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
